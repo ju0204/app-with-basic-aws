@@ -1,0 +1,8 @@
+file\service\S3Service.class
+file\controller\S3FileController.class
+file\entity\AttachmentFile$AttachmentFileBuilder.class
+file\entity\BaseEntity.class
+file\Step16S3FileTApplication.class
+file\config\S3Config.class
+file\entity\AttachmentFile.class
+file\repository\AttachmentFileRepository.class

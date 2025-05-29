@@ -1,0 +1,7 @@
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\config\S3Config.java
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\controller\S3FileController.java
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\entity\AttachmentFile.java
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\entity\BaseEntity.java
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\repository\AttachmentFileRepository.java
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\service\S3Service.java
+C:\Cloud\05.springboot\step15_s3_file_t\src\main\java\file\Step16S3FileTApplication.java
