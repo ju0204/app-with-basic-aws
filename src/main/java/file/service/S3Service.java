@@ -48,7 +48,7 @@ public class S3Service {
 		}
 		
 		//DB 저장
-		String savePath = "C:/Cloud/98.data/" + DIR_NAME; // 슬래시 하나로 통일해도 됨
+		String savePath = "/home/ubuntu/" + DIR_NAME; // 슬래시 하나로 통일해도 됨
 
 		String attachmentOriginalFilename = file.getOriginalFilename();
 		UUID uuid = UUID.randomUUID();
@@ -68,7 +68,7 @@ public class S3Service {
 		//s3에 물리적으로 저장
 		if(fileNo != null) {
 			//임시 파일 저장 -> 이거 꼭 필요 그래서 밑에서 삭제 시켜줘야함 
-			File uploadFile = new File(attachmentfile.getFilePath() + "//" + attachmentFileName);
+			File uploadFile = new File(attachmentfile.getFilePath() + "/" + attachmentFileName);
 			file.transferTo(uploadFile);
 			
 			//s3 파일 전송
